@@ -1,0 +1,2 @@
+github "yannickl/AwaitKit" ~> 5.2.0
+github "Alamofire/Alamofire" ~> 4.9.1
