@@ -1,5 +1,7 @@
 # AlamofirePromiseKit
 
+[![Cocoapod Version](https://img.shields.io/cocoapods/v/AlamofirePromiseKit)](https://cocoapods.org/pods/AlamofirePromiseKit)
+
 > Implement ‘Alamofire’ synchronous callback
 
 ## Requirements
