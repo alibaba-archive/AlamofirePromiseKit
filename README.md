@@ -35,7 +35,7 @@ import Foundation
 import Alamofire
 import AwaitKit
 
-let sessionManager:SessionManager = Alamofire.SessionManager(configuration: config)
+let sessionManager:SessionManager = Alamofire.SessionManager(configuration: URLSessionConfiguration.default)
 let promise = sessionManager.request("https://httpbin.org/get", method: HTTPMethod.get).response()
 let res: DefaultDataResponse = try! await(promise)
 let result: String = String(data: res.data!, encoding: .utf8) ?? ""
